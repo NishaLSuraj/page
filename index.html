@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<style>
+		
+@media(max-width: 762px){
+	.navst{
+		flex-direction:row;
+		display: flex;
+	}
+}
+
+@media(max-width: 762px){
+	.flex-container{
+		flex-direction: column;
+
+	}
+}
+body{
+		background-image: url(bg.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		margin: 0;
+	}
+	.flex-container{
+		display: flex;
+		/*justify-content: space-evenly;*/
+		margin-top: 50px;
+	}
+	.navst{
+		border: 1px solid transparent;
+		border-width: 25px;
+		background:rgba(0, 0, 0,0.3);
+		text-align: right;
+		padding-right: 150px;
+		word-spacing: 50px;
+	}
+		.navst a{
+    	text-decoration: none;
+		font-size: 30px;
+		color: ghostwhite;
+  }
+  .navst button{
+  	border-width: 3px;
+  	border-radius: 4px;
+  	background-color: purple;
+  	box-shadow: 1px 1px ghostwhite;
+
+  }
+  .navst select{
+  	width: 100px;
+  	height: 40px;
+  	border-radius: 4px;
+  	background-color: purple;
+  	font-size: 30px;
+  	color: ghostwhite;
+  	box-shadow: 1px 1px ghostwhite;
+  }
+	
+	.box1{
+		border: 2px solid transparent;
+		width: 400px;
+		height: 350px;
+		background: rgba(0, 0, 0, 0.3);
+		background-color: #85929E;
+		margin: 20px;
+		padding: 20px;
+
+	}
+	.box1 h1{
+		font-size: 30px;
+		text-align: center;
+		color: yellow;
+	}
+	.box1 p{
+		font-size: 20px;
+		word-spacing: 5px;
+		color: ghostwhite;
+	}
+	.box2{
+		border: 2px solid transparent;
+		width: 400px;
+		height: 350px;
+		background: rgba(0, 0, 0, 0.3);
+		background-color: #85929E;
+		margin: 20px;
+		padding: 20px;
+
+	}
+	.box2 h1{
+		font-size: 30px;
+		text-align: center;
+		color: yellow;
+	}
+	.box2 p{
+		font-size: 20px;
+		word-spacing: 5px;
+		color: ghostwhite;
+	}
+	.box3{
+		border: 2px solid transparent;
+		width: 400px;
+		height: 350px;
+		background: rgba(0, 0, 0, 0.3);
+		background-color: #85929E;
+		margin: 20px;
+		padding: 20px;
+
+	}
+	.box3 h1{
+		font-size: 30px;
+		text-align: center;
+		color: yellow;
+	}
+	.box3 p{
+		font-size: 20px;
+		word-spacing: 5px;
+		color: ghostwhite;
+	}
+	.foot{
+		border: 1px solid transparent;
+		border-width: 25px;
+		background:rgba(0, 0, 0,0.3);
+		color: ghostwhite;
+		text-align: center;
+	}
+
+</style>
+<body>
+
+	<div class="navst">
+		<button><a href="page.html">Home</a></button>
+		<a href="gallery.html">Gallery</a>
+		<select>
+			<option>About us</option>
+			<option>Mission</option>
+			<option>Vision</option>
+		</select>
+		<a href="contact.html">Contact</a>
+   </div>
+	<div class="flex-container">
+		<div class="box1">
+			<h1>PYTHON</h1>
+			<p>Python is an interpreted, object-oriented, high-level programming language with dynamic semantics.</p>
+		</div>
+		<div class="box2">
+		    <h1>JAVA</h1>
+		    <p>Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible.</p>
+		</div>
+		<div class="box3">
+		     <h1>HTML</h1>
+		     <p>HTML stands for Hyper Text Markup Language. HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page. HTML consists of a series of elements. HTML elements tell the browser how to display the content.</p>
+		</div>
+	</div>
+	<div class="foot">
+		<footer><h3>Contact information :example2022@gmail.com</h3></footer>
+	</div>
+
+</body>
+</html>
